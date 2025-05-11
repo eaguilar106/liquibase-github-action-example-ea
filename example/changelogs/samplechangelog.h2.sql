@@ -1,6 +1,6 @@
 --liquibase formatted sql
 
---changeset EA:1
+--changeset ELA:1
 --rollback DROP TABLE person;
 create table person (
     id int primary key,
@@ -10,7 +10,7 @@ create table person (
     city varchar(30)
 )
 
---changeset EA:2
+--changeset ELA:2
 --rollback DROP TABLE company;
 create table company (
     id int primary key,
